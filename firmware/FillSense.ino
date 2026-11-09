@@ -223,9 +223,15 @@ void printLcdLine(byte row, const char *message) {
 
 // Show the distance and one simple status line
 void updateLcd(float distanceCm, byte zone) {
+  char distanceText[8];
   char distanceLine[17];
-  snprintf(distanceLine, sizeof(distanceLine),
-           "Gap: %5.1f cm", distanceCm);
+
+  // dtostrf works on the Arduino Uno without enabling printf float support
+  dtostrf(distanceCm, 5, 1, distanceText);
+
+  strcpy(distanceLine, "Gap: ");
+  strcat(distanceLine, distanceText);
+  strcat(distanceLine, " cm");
 
   printLcdLine(0, distanceLine);
 
