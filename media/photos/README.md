@@ -1,15 +1,13 @@
 # Prototype Photos
 
-Add real photos of your own FillSense build in this folder.
+These are original photos of the FillSense hardware prototype.
 
-Suggested file names:
+| File | What it shows |
+|---|---|
+| [safe-test-10cm.jpg](safe-test-10cm.jpg) | Full setup with the LCD showing a safe reading |
+| [warning-test-5-1cm.jpg](warning-test-5-1cm.jpg) | LCD warning reading at 5.1 cm |
+| [lcd-status-closeup.jpg](lcd-status-closeup.jpg) | Close-up of the LCD and status display |
 
-- prototype-front.jpg — full project view
-- prototype-circuit.jpg — close view of the wiring
-- prototype-sensor-position.jpg — sensor above the container
-- prototype-lcd-warning.jpg — LCD during a warning
-- prototype-critical.jpg — LCD during the critical level
+The demonstration video is linked in the main [README](../../README.md).
 
-Use clear original photos. Do not use stock photos or images from another project.
-
-The demonstration video is linked from the main README. Video still images have not been added yet.
+The photos are kept as supplied. They are not stock images.
