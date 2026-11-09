@@ -1,0 +1,8 @@
+# Temporary and local files
+.DS_Store
+Thumbs.db
+*.tmp
+*.bak
+
+# Arduino build output
+build/

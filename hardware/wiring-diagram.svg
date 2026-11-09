@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="900" viewBox="0 0 1400 900" role="img" aria-labelledby="title desc">
+<title id="title">FillSense wiring reference</title>
+<desc id="desc">Connection reference for an Arduino Uno, HC-SR04, 16 by 2 LCD and piezo buzzer.</desc>
+<rect width="1400" height="900" fill="#f4f7fb"/>
+<rect x="40" y="34" width="1320" height="112" rx="22" fill="#14263d"/>
+<text x="82" y="88" fill="#ffffff" font-family="Arial,sans-serif" font-size="34" font-weight="700">FILLSENSE</text>
+<text x="82" y="120" fill="#c7d7ea" font-family="Arial,sans-serif" font-size="19">Wiring reference • Arduino Uno • HC-SR04 • 16×2 LCD • buzzer</text>
+<rect x="55" y="190" width="390" height="610" rx="18" fill="#ffffff" stroke="#d6dfeb" stroke-width="2"/>
+<text x="88" y="242" fill="#14263d" font-family="Arial,sans-serif" font-size="27" font-weight="700">HC-SR04</text>
+<text x="88" y="278" fill="#52657d" font-family="Arial,sans-serif" font-size="17">Ultrasonic distance sensor</text>
+<rect x="88" y="315" width="320" height="70" rx="12" fill="#eef4fb"/>
+<text x="112" y="359" fill="#14263d" font-family="Arial,sans-serif" font-size="21" font-weight="700">VCC</text>
+<text x="365" y="359" fill="#14263d" text-anchor="end" font-family="Arial,sans-serif" font-size="21">5V</text>
+<rect x="88" y="400" width="320" height="70" rx="12" fill="#eef4fb"/>
+<text x="112" y="444" fill="#14263d" font-family="Arial,sans-serif" font-size="21" font-weight="700">TRIG</text>
+<text x="365" y="444" fill="#14263d" text-anchor="end" font-family="Arial,sans-serif" font-size="21">D9</text>
+<rect x="88" y="485" width="320" height="70" rx="12" fill="#eef4fb"/>
+<text x="112" y="529" fill="#14263d" font-family="Arial,sans-serif" font-size="21" font-weight="700">ECHO</text>
+<text x="365" y="529" fill="#14263d" text-anchor="end" font-family="Arial,sans-serif" font-size="21">D10</text>
+<rect x="88" y="570" width="320" height="70" rx="12" fill="#eef4fb"/>
+<text x="112" y="614" fill="#14263d" font-family="Arial,sans-serif" font-size="21" font-weight="700">GND</text>
+<text x="365" y="614" fill="#14263d" text-anchor="end" font-family="Arial,sans-serif" font-size="21">GND</text>
+<text x="88" y="700" fill="#52657d" font-family="Arial,sans-serif" font-size="16">Point the sensor down towards</text>
+<text x="88" y="726" fill="#52657d" font-family="Arial,sans-serif" font-size="16">the water surface. Keep it dry.</text>
+
+<rect x="485" y="190" width="420" height="610" rx="18" fill="#14263d"/>
+<text x="525" y="242" fill="#ffffff" font-family="Arial,sans-serif" font-size="27" font-weight="700">ARDUINO UNO</text>
+<text x="525" y="278" fill="#c7d7ea" font-family="Arial,sans-serif" font-size="17">Main controller</text>
+<rect x="525" y="315" width="340" height="430" rx="16" fill="#1d3858" stroke="#507197" stroke-width="2"/>
+<text x="695" y="370" fill="#ffffff" text-anchor="middle" font-family="Arial,sans-serif" font-size="24" font-weight="700">UNO</text>
+<g font-family="Arial,sans-serif" font-size="20" fill="#ffffff">
+<text x="560" y="435">D2</text><text x="560" y="480">D3</text><text x="560" y="525">D4</text><text x="560" y="570">D5</text><text x="560" y="615">D8</text><text x="560" y="660">D9 / D10</text><text x="735" y="435">D11 / D12</text><text x="735" y="500">5V</text><text x="735" y="565">GND</text>
+</g>
+<g stroke="#80b7ff" stroke-width="3" fill="none">
+<path d="M408 350 H485"/><path d="M408 435 H485"/><path d="M408 520 H485"/><path d="M408 605 H485"/>
+</g>
+<rect x="945" y="190" width="400" height="390" rx="18" fill="#ffffff" stroke="#d6dfeb" stroke-width="2"/>
+<text x="980" y="242" fill="#14263d" font-family="Arial,sans-serif" font-size="27" font-weight="700">16×2 LCD</text>
+<text x="980" y="278" fill="#52657d" font-family="Arial,sans-serif" font-size="17">Parallel display • 4-bit mode</text>
+<g font-family="Arial,sans-serif" font-size="18" fill="#14263d">
+<text x="985" y="335">VSS → GND</text><text x="985" y="370">VDD → 5V</text><text x="985" y="405">VO → contrast control</text><text x="985" y="440">RS → D12</text><text x="985" y="475">RW → GND</text><text x="985" y="510">E → D11</text><text x="985" y="545">D4,D5,D6,D7 → D5,D4,D3,D2</text>
+</g>
+<rect x="945" y="610" width="400" height="190" rx="18" fill="#ffffff" stroke="#d6dfeb" stroke-width="2"/>
+<text x="980" y="660" fill="#14263d" font-family="Arial,sans-serif" font-size="27" font-weight="700">BUZZER</text>
+<text x="980" y="710" fill="#14263d" font-family="Arial,sans-serif" font-size="20">Positive / signal → D8</text>
+<text x="980" y="750" fill="#14263d" font-family="Arial,sans-serif" font-size="20">Negative → GND</text>
+<rect x="55" y="820" width="1290" height="48" rx="12" fill="#e7eef7"/>
+<text x="80" y="852" fill="#344b66" font-family="Arial,sans-serif" font-size="17">All grounds must be connected. Check your exact LCD and buzzer module before powering the circuit.</text>
+</svg>
